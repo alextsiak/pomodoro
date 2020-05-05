@@ -1,0 +1,102 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body{
+	height: 100%;
+}
+
+body {
+	background-color: #bf3227;
+	color: #fff4ee;
+	font-family: 'Rubik', sans-serif;
+
+}
+
+#modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+	background-color: #fff4ee;
+	color: #333333;
+ 	margin: 15% auto;
+  	padding: 20px;
+ 	width: 80%;
+}
+
+.close {
+	float: left;
+	color: #fff4ee;
+}
+
+.wrapper {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.main-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	flex-grow: 1;
+}
+
+footer {
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+	align-self: flex-end;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h1 {
+	font-size: 7em;
+}
+
+i {
+	padding: 15px;
+	margin-top: 2.5rem;
+	cursor: pointer;
+}
+
+p {
+	margin-bottom: 1em;
+	padding: 0.75em;
+}
+
+.pomodoros-count {
+	margin-top: 5rem;
+	font-weight: bolder;
+}
+
+.help {
+	align-self: flex-start;
+	margin-top: auto;
+}
+
+.help-button {
+	cursor: pointer;
+}
+
+a.modal-content {
+	color: black;
+	text-decoration: overline;
+}

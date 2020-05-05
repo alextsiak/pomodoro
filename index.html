@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Pomodoro Timer</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/abd9e758f5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div id="modal">
+		<div class="modal-content">
+			<h3>What is a pomodoro?</h3>
+			<p>It's the Italian word for tomato.</p>
+			<h3>I don't see any tomatoes.</h3>
+			<p>That's because this is about the time management technique named after the tomato! It goes like this: you focus on your task for 25 minutes (a "work session"). When they're over, you can take a short break for 5 minutes. And after 4 work sessions, you're free to take a longer break!</p>
+			<h3>I still don't see what this has to do with tomatoes.</h3>
+			<p>The guy who invented it had a tomato shaped timer, okay? He made it, he can name it whatever he wants. <b> <a href="https://en.wikipedia.org/wiki/Pomodoro_Technique" target="_blank">More serious information here.</a></b></p>		
+			<h3>Where can I send my complaints about the lack of tomatoes?</h3>
+			<p><b><a href="">To the person who made this app!</a></b></p>
+			<i class="far fa-times-circle fa-2x close"></i>
+		</div>
+	</div>
+	<div class="wrapper">
+		<div class="main-container">
+			<div class="timer">
+				<h1 id="counter"><span id="minutes">25</span>:<span id="seconds">00</span></h1>
+			</div>
+			<div class="buttons">
+				<i class="fas fa-play-circle fa-3x control" id="start"></i>
+				<i class="fas fa-stop-circle fa-3x control" id="stop"></i>
+			</div>
+			<p class="pomodoros-count"></p>
+		</div>
+		<div class="help">
+				<i class="fas fa-question-circle fa-2x help-button"></i>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
